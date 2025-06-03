@@ -10,12 +10,25 @@ import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.plaf.basic.BasicScrollBarUI;
 import model.Anggota;
+import model.User;
+import services.AuthService;
+import session.Session;
 import utils.JsonUtil;
 import validation.AuthValidation;
 
 public class Register extends javax.swing.JFrame {
 
     public Register() {
+        User anggota = Session.getCurrentUser();
+        if (anggota != null) {
+            if (anggota.getRole().equals("ANGGOTA")) {
+                new AnggotaDashboard().setVisible(true);
+            } else if (anggota.getRole().equals("ADMIN")) {
+                new AnggotaDashboard().setVisible(true);
+            }
+            this.dispose();
+            return;
+        }
         initComponents();
         this.setResizable(false);
         this.setLocationRelativeTo(null);
@@ -356,7 +369,7 @@ public class Register extends javax.swing.JFrame {
         }
         String password = new String(passwordInput.getPassword());
 
-        String err = JsonUtil.register(fullName, userName, email, jenisKelamin, password);
+        String err = AuthService.register(fullName, userName, email, jenisKelamin, password);
 
         if (err != null) {
             JOptionPane.showMessageDialog(null, err, "Validation Error", JOptionPane.ERROR_MESSAGE);

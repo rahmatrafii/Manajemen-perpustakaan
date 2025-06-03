@@ -2,13 +2,24 @@ package view;
 
 import java.awt.Font;
 import javax.swing.JOptionPane;
-import model.Anggota;
+import model.User;
+import services.AuthService;
+import session.Session;
 import utils.JsonUtil;
-import validation.AuthValidation;
 
 public class Login extends javax.swing.JFrame {
 
     public Login() {
+        User anggota = Session.getCurrentUser();
+        if (anggota != null) {
+            if (anggota.getRole().equals("ANGGOTA")) {
+                new AnggotaDashboard().setVisible(true);
+            } else if (anggota.getRole().equals("ADMIN")) {
+                new AdminDashboard().setVisible(true);
+            }
+            this.dispose();
+            return;
+        }
         initComponents();
         Font Merriweather = new Font("merriweather", Font.BOLD, 40);
         name.setFont(Merriweather);
@@ -201,10 +212,26 @@ public class Login extends javax.swing.JFrame {
         String username = usernameInput.getText();
         String password = new String(passwordInput.getPassword());
 
-        String err = JsonUtil.Login(username, password);
+        System.out.println(username);
+        String err = AuthService.Login(username, password);
 
         if (err != null) {
             JOptionPane.showMessageDialog(null, err, "Validation Error", JOptionPane.ERROR_MESSAGE);
+            return;
+        }
+
+        User user = JsonUtil.getUser(username);
+
+        Session.setCurrentUser(user);
+
+        String role = user.getRole();
+        if (role.equals("ANGGOTA")) {
+            new AnggotaDashboard().setVisible(true);
+            this.dispose();
+            return;
+        } else if (role.equals("ADMIN")) {
+             new AdminDashboard().setVisible(true);
+            this.dispose();
             return;
         }
 

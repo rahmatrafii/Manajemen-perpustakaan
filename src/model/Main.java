@@ -4,8 +4,6 @@
  */
 package model;
 
-import utils.UserAksi;
-
 /**
  *
  * @author User
@@ -13,7 +11,6 @@ import utils.UserAksi;
 public class Main {
 
     public static void main(String[] args) {
-        String res = UserAksi.pinjamBuku("rafi2004", "978-602-45-6773-7");
-        System.out.println(res);
+
     }
 }

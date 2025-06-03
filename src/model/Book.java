@@ -27,15 +27,20 @@ public class Book {
     public String getJudul() {
         return judul;
     }
-    public boolean isTersedia () {
+
+    public boolean isTersedia() {
         return tersedia;
     }
+
     public void setTersedia(boolean kondisi) {
         this.tersedia = kondisi;
+    }
+    
+    public String getPenulis() {
+        return penulis;
     }
 
     public String getISBN() {
         return isbn;
-
     }
 }

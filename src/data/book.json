@@ -1,4 +1,5 @@
-[{
+[
+    {
         "isbn": "978-602-45-6773-7",
         "judul": "Mengelola Emosi dengan Bijak",
         "penulis": "Bambang Santoso",
@@ -8,7 +9,8 @@
         "jumlahPeminjaman": 0,
         "tanggalDitambahkan": "2023-11-28",
         "sumber": "hibah"
-    }, {
+    },
+    {
         "isbn": "978-602-88-4010-5",
         "judul": "Hidup Produktif Tanpa Drama",
         "penulis": "Bagus Wicaksono",
@@ -18,7 +20,8 @@
         "jumlahPeminjaman": 15,
         "tanggalDitambahkan": "2024-06-20",
         "sumber": "sumbangan"
-    }, {
+    },
+    {
         "isbn": "978-602-63-9720-7",
         "judul": "Seni Membaca Diri",
         "penulis": "Bambang Santoso",
@@ -28,7 +31,8 @@
         "jumlahPeminjaman": 9,
         "tanggalDitambahkan": "2021-10-03",
         "sumber": "hibah"
-    }, {
+    },
+    {
         "isbn": "978-602-96-7720-4",
         "judul": "Melepas Beban Mental",
         "penulis": "Andi Prasetya",
@@ -38,7 +42,8 @@
         "jumlahPeminjaman": 2,
         "tanggalDitambahkan": "2021-02-06",
         "sumber": "dibeli"
-    }, {
+    },
+    {
         "isbn": "978-602-78-5941-1",
         "judul": "Self Healing: Berdamai dengan Luka Batin",
         "penulis": "Rina Kartika",
@@ -48,7 +53,8 @@
         "jumlahPeminjaman": 14,
         "tanggalDitambahkan": "2025-01-20",
         "sumber": "sumbangan"
-    }, {
+    },
+    {
         "isbn": "978-602-36-3541-2",
         "judul": "Hidup Tanpa Overthinking",
         "penulis": "Bambang Santoso",
@@ -58,7 +64,8 @@
         "jumlahPeminjaman": 9,
         "tanggalDitambahkan": "2021-02-11",
         "sumber": "dibeli"
-    }, {
+    },
+    {
         "isbn": "978-602-57-2666-6",
         "judul": "Bahagia Itu Sederhana",
         "penulis": "Eka Putra",
@@ -68,7 +75,8 @@
         "jumlahPeminjaman": 24,
         "tanggalDitambahkan": "2023-04-04",
         "sumber": "hibah"
-    }, {
+    },
+    {
         "isbn": "978-602-00-2413-6",
         "judul": "Bangkit dari Keterpurukan",
         "penulis": "Andi Nugroho",
@@ -78,7 +86,8 @@
         "jumlahPeminjaman": 19,
         "tanggalDitambahkan": "2022-02-15",
         "sumber": "dibeli"
-    }, {
+    },
+    {
         "isbn": "978-602-03-4502-0",
         "judul": "Mengasah Potensi Diri",
         "penulis": "Putri Maharani",
@@ -88,7 +97,8 @@
         "jumlahPeminjaman": 11,
         "tanggalDitambahkan": "2022-07-11",
         "sumber": "sumbangan"
-    }, {
+    },
+    {
         "isbn": "978-602-99-1193-2",
         "judul": "Bersahabat dengan Diri Sendiri",
         "penulis": "Aulia Rahman",
@@ -98,7 +108,8 @@
         "jumlahPeminjaman": 7,
         "tanggalDitambahkan": "2023-09-20",
         "sumber": "hibah"
-    }, {
+    },
+    {
         "isbn": "978-602-00-8876-3",
         "judul": "Membentuk Karakter Positif",
         "penulis": "Irfan Maulana",
@@ -108,7 +119,8 @@
         "jumlahPeminjaman": 17,
         "tanggalDitambahkan": "2022-05-19",
         "sumber": "dibeli"
-    }, {
+    },
+    {
         "isbn": "978-602-12-3400-6",
         "judul": "Kunci Hidup Bahagia",
         "penulis": "Rita Handayani",
@@ -118,7 +130,8 @@
         "jumlahPeminjaman": 8,
         "tanggalDitambahkan": "2021-12-03",
         "sumber": "sumbangan"
-    }, {
+    },
+    {
         "isbn": "978-602-86-1357-2",
         "judul": "Sukses dengan Mindset Positif",
         "penulis": "Yoga Prasetya",
@@ -128,7 +141,8 @@
         "jumlahPeminjaman": 12,
         "tanggalDitambahkan": "2024-03-14",
         "sumber": "dibeli"
-    }, {
+    },
+    {
         "isbn": "978-602-50-6013-7",
         "judul": "Peta Hidup: Menemukan Arah dan Tujuan",
         "penulis": "Mira Santika",
@@ -138,7 +152,8 @@
         "jumlahPeminjaman": 5,
         "tanggalDitambahkan": "2022-09-06",
         "sumber": "hibah"
-    }, {
+    },
+    {
         "isbn": "978-602-24-9001-0",
         "judul": "Kekuatan Visualisasi",
         "penulis": "Reza Permana",
@@ -148,7 +163,8 @@
         "jumlahPeminjaman": 16,
         "tanggalDitambahkan": "2023-06-11",
         "sumber": "sumbangan"
-    }, {
+    },
+    {
         "isbn": "978-602-44-1234-9",
         "judul": "Disiplin Diri Tanpa Paksaan",
         "penulis": "Nadia Putri",
@@ -158,7 +174,8 @@
         "jumlahPeminjaman": 14,
         "tanggalDitambahkan": "2021-08-22",
         "sumber": "hibah"
-    }, {
+    },
+    {
         "isbn": "978-602-67-8888-6",
         "judul": "Merangkul Kegagalan",
         "penulis": "Daniel Firdaus",
@@ -168,7 +185,8 @@
         "jumlahPeminjaman": 10,
         "tanggalDitambahkan": "2022-04-17",
         "sumber": "dibeli"
-    }, {
+    },
+    {
         "isbn": "978-602-90-7777-1",
         "judul": "Manajemen Waktu untuk Milenial",
         "penulis": "Laras Wulandari",
@@ -178,7 +196,8 @@
         "jumlahPeminjaman": 9,
         "tanggalDitambahkan": "2024-02-10",
         "sumber": "sumbangan"
-    }, {
+    },
+    {
         "isbn": "978-602-99-3033-5",
         "judul": "Motivasi Pagi Hari",
         "penulis": "Dwi Nugraha",
@@ -188,7 +207,8 @@
         "jumlahPeminjaman": 13,
         "tanggalDitambahkan": "2022-01-08",
         "sumber": "dibeli"
-    }, {
+    },
+    {
         "isbn": "978-602-12-6788-3",
         "judul": "Hidup Minimalis Bahagia Maksimal",
         "penulis": "Cindy Alviani",
@@ -198,7 +218,8 @@
         "jumlahPeminjaman": 4,
         "tanggalDitambahkan": "2023-05-02",
         "sumber": "hibah"
-    }, {
+    },
+    {
         "isbn": "978-602-31-4567-8",
         "judul": "Jangan Takut Bermimpi Besar",
         "penulis": "Adit Prakoso",
@@ -208,7 +229,8 @@
         "jumlahPeminjaman": 21,
         "tanggalDitambahkan": "2020-09-12",
         "sumber": "sumbangan"
-    }, {
+    },
+    {
         "isbn": "978-602-13-1010-1",
         "judul": "Cara Berpikir Kaya",
         "penulis": "Rahmat Cahyono",
@@ -218,7 +240,8 @@
         "jumlahPeminjaman": 22,
         "tanggalDitambahkan": "2021-07-01",
         "sumber": "dibeli"
-    }, {
+    },
+    {
         "isbn": "978-602-66-3210-3",
         "judul": "Latihan Mental Sukses",
         "penulis": "Eka Santosa",
@@ -228,7 +251,8 @@
         "jumlahPeminjaman": 6,
         "tanggalDitambahkan": "2022-10-10",
         "sumber": "hibah"
-    }, {
+    },
+    {
         "isbn": "978-602-77-1234-3",
         "judul": "Kebiasaan Baru, Hidup Baru",
         "penulis": "Anita Dewi",
@@ -238,7 +262,8 @@
         "jumlahPeminjaman": 18,
         "tanggalDitambahkan": "2022-12-15",
         "sumber": "sumbangan"
-    }, {
+    },
+    {
         "isbn": "978-602-44-5555-2",
         "judul": "Resep Bahagia Setiap Hari",
         "penulis": "Dian Kurnia",
@@ -248,7 +273,8 @@
         "jumlahPeminjaman": 12,
         "tanggalDitambahkan": "2023-11-04",
         "sumber": "dibeli"
-    }, {
+    },
+    {
         "isbn": "978-602-88-8888-0",
         "judul": "Mencintai Hidup Apa Adanya",
         "penulis": "Yuni Salma",
@@ -258,7 +284,8 @@
         "jumlahPeminjaman": 3,
         "tanggalDitambahkan": "2021-04-21",
         "sumber": "hibah"
-    }, {
+    },
+    {
         "isbn": "978-602-60-1234-6",
         "judul": "Fokus di Tengah Gangguan",
         "penulis": "Rahma Widya",
@@ -268,4 +295,6 @@
         "jumlahPeminjaman": 20,
         "tanggalDitambahkan": "2025-01-15",
         "sumber": "sumbangan"
-    }]
+    }
+
+]

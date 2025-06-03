@@ -1,1 +1,34 @@
-[{"id":"af818b11-78ce-4fc2-a551-73331110f511","fullName":"Rahmat Rafi","username":"rafi2004","email":"rahmatrafiindrayani@gmail.com","jenisKelamin":"Laki-Laki","password":"123456","role":"ANGGOTA"},{"id":"f49eab19-3746-4dda-8ad0-a1260e00a4d6","fullName":"Nailul Ghufron","username":"nail123","email":"nailul@gmail.com","jenisKelamin":"Laki-Laki","password":"123456","role":"ANGGOTA"}]
+[{
+        "id": "af818b11-78ce-4fc2-a551-73331110f511",
+        "fullName": "Rahmat Rafi",
+        "username": "rafi2004",
+        "email": "rahmatrafiindrayani@gmail.com",
+        "jenisKelamin": "Laki-Laki",
+        "password": "123456",
+        "role": "ANGGOTA"
+    }, {
+        "id": "f49eab19-3746-4dda-8ad0-a1260e00a4d6",
+        "fullName": "Nailul Ghufron",
+        "username": "nail123",
+        "email": "nailul@gmail.com",
+        "jenisKelamin": "Laki-Laki",
+        "password": "123456",
+        "role": "ANGGOTA"
+    }, {
+        "id": "14da0b82-0446-41ed-8f1a-d32144644407",
+        "fullName": "Nanang",
+        "username": "nanang",
+        "email": "nanang@gmail.com",
+        "jenisKelamin": "Laki-Laki",
+        "password": "123456",
+        "role": "ANGGOTA"
+    },{
+        "id": "14da0b82-0446-41ed-8f1a-d32144644107",
+        "fullName": "dika",
+        "username": "dika",
+        "email": "dika@gmail.com",
+        "jenisKelamin": "Laki-Laki",
+        "password": "123456",
+        "role": "ADMIN"
+    }
+]

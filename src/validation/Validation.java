@@ -1,23 +1,24 @@
 package validation;
 
-public abstract class Validation {
+public abstract class Validation implements LoginValidation, RegisterValidation {
 
-    // Validasi input umum (digunakan oleh form lain juga)
-    protected boolean isNullOrEmpty(String input) {
-        return input == null || input.trim().isEmpty();
+    public boolean isValidUsername(String username) {
+        return username.length() >= 3;
     }
 
-    protected boolean isValidEmail(String email) {
-        // Pola email sederhana
+    public boolean isValidFullName(String fullName) {
+        return fullName == null || fullName.trim().isEmpty();
+    }
+
+    public boolean isValidEmail(String email) {
         return email != null && email.matches("^[\\w.-]+@[\\w.-]+\\.\\w{2,}$");
     }
 
-    protected boolean isPassword(String password) {
-        // Minimal 6 karakter, huruf & angka
+    public boolean isValidPassword(String password) {
         return password != null && password.length() >= 6;
     }
 
-    protected boolean isValidGender(String gender) {
+    public boolean isValidGender(String gender) {
         return gender != null && (gender.equalsIgnoreCase("Laki-laki") || gender.equalsIgnoreCase("Perempuan"));
     }
 

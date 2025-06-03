@@ -62,7 +62,15 @@ public class Transaksi {
         return tanggalKembali;
     }
 
+    public void setTanggalKembali(String date) {
+        this.tanggalKembali = date;
+    }
+
     public String getStatus() {
         return status;
+    }
+
+    public void setStatus(String status) {
+        this.status = status;
     }
 }

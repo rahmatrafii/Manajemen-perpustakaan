@@ -1,11 +1,13 @@
-[{
-        "idTransaksi": "2e66043b-7823-4baa-858c-b00d5c46dd3b",
-        "idAnggota": "af818b11-78ce-4fc2-a551-73331110f511",
-        "namaAnggota": "Rahmat Rafi",
-        "isbnBuku": "978-602-45-6773-7",
-        "judulBuku": "Mengelola Emosi dengan Bijak",
-        "tanggalPinjam": "2025-05-27",
-        "tanggalJatuhTempo": "2025-06-03",
-        "tanggalKembali": "",
-        "status": "dipinjam"
-    }]
+[
+  {
+    "idTransaksi": "2e66043b-7823-4baa-858c-b00d5c46dd3b",
+    "idAnggota": "af818b11-78ce-4fc2-a551-73331110f511",
+    "namaAnggota": "Rahmat Rafi",
+    "isbnBuku": "978-602-45-6773-7",
+    "judulBuku": "Mengelola Emosi dengan Bijak",
+    "tanggalPinjam": "2025-05-27",
+    "tanggalJatuhTempo": "2025-05-30",
+    "tanggalKembali": "2025-05-31",
+    "status": "dipinjam"
+  }
+]
